@@ -1,6 +1,6 @@
 :root {
-	--primary: #EA40A4;
-	--business: #3A82EE;
+	--primary: blue;
+	--business: green;
 	--personal: var(--primary);
 	--light: #EEE;
 	--grey: #888;
@@ -29,7 +29,7 @@ input:not([type="radio"]):not([type="checkbox"]), button {
 }
 
 body {
-	background: var(--light);
+	background: #cedec1;
 	color: var(--dark);
 }
 
@@ -41,14 +41,14 @@ section {
 }
 
 h3 {
-	color: var(--dark);
+	color: black;
 	font-size: 1rem;
 	font-weight: 400;
 	margin-bottom: 0.5rem;
 }
 
 h4 {
-	color: var(--grey);
+	color: black;
 	font-size: 0.875rem;
 	font-weight: 700;
 	margin-bottom: 0.5rem;
@@ -76,7 +76,7 @@ h4 {
 	width: 100%;
 	font-size: 1.125rem;
 	padding: 1rem 1.5rem;
-	color: var(--dark);
+	color: black;
 	background-color: #FFF;
 	border-radius: 0.5rem;
 	box-shadow: var(--shadow);
@@ -158,7 +158,7 @@ input:checked ~ .bubble::after {
 	font-size: 1.125rem;
 	padding: 1rem 1.5rem;
 	color: #FFF;
-	background-color: var(--primary);
+	background-color: green;
 	border-radius: 0.5rem;
 	box-shadow: var(--personal-glow);
 	cursor: pointer;
@@ -201,6 +201,7 @@ input:checked ~ .bubble::after {
 .todo-item .actions {
 	display: flex;
 	align-items: center;
+  margin-right: 10px;
 }
 
 .todo-item .actions button {
